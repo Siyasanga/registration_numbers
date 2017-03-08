@@ -7,11 +7,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <label for="regNumba">Registration Number: </label><br>
+      <label for="regNumba" id="regLabel">Registration Number: </label><br>
       <input type="text" name="regNumba" placeholder="Enter registration number" id="regNumba"><br>
       <button type="button" class="add" name="button">Add</button>
+      <div class="radios">
+        <label for="location"><span>Filter: </span><br></label>
+        <div class="rad1" id="r0">
+            <input type="radio" class="radio" id="rr0" name="location" value="All">
+            <label for="location">All</label>
+        </div>
+        <div class="rad1" id="r1">
+            <input type="radio" class="radio" id="rr1" name="location" value="Cape Town">
+            <label for="location">Cape Town</label>
+        </div>
+        <div class="rad1" id="r2">
+            <input type="radio" class="radio" id="rr2" name="location" value="Paarl">
+            <label for="location">Paarl</label>
+        </div>
+        <div class="rad1" id="r3">
+            <input type="radio" class="radio" id="rr3" name="location" value="Eastern Cape">
+            <label for="location">Eastern Cape</label>
+        </div>
+      </div>
       <div class="plates">
-        <p class="nPlate">CA 45679</p>
+        <p class="nPlate">CA 11111</p>
+        <p class="nPlate">CJ 22222</p>
+        <p class="nPlate">EC 33333</p>
+        <p class="nPlate">CA 44444</p>
+        <p class="nPlate">CJ 55555</p>
+        <p class="nPlate">EC 66666</p>
       </div>
     </div>
   </body>
